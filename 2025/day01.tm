@@ -112,7 +112,7 @@ func main()
     say("")
 
     # Read actual input file
-    input_path := (./2025/input.txt)
+    input_path := (./2025/input1.txt)
     if input_path.exists()
         say("=== Running with actual input ===")
         input := input_path.read()!
@@ -121,5 +121,5 @@ func main()
         say("Part 1: $result")
         say("Part 2: $(part2(input))")
     else
-        say("No input.txt found. Download your input from:")
+        say("No input1.txt found. Download your input from:")
         say("https://adventofcode.com/2025/day/1/input")
