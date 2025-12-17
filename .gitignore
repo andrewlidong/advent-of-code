@@ -1,0 +1,14 @@
+# Input files (personal puzzle inputs should not be committed per AoC rules)
+**/input.txt
+**/test_input.txt
+
+# Tomo build artifacts
+*.o
+*.c
+*.ll
+
+# OS files
+.DS_Store
+
+# Output files
+output.txt
