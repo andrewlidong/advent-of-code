@@ -6,6 +6,7 @@
 *.o
 *.c
 *.ll
+**/.build/
 
 # OS files
 .DS_Store
